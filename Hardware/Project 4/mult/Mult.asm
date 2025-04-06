@@ -1,0 +1,43 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/4/Mult.asm
+
+// Multiplies R0 and R1 and stores the result in R2.
+// (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
+// The algorithm is based on repetitive addition.
+
+// i == R0 value
+@R0
+D=M
+@i
+M=D
+// sum == 0
+@0
+D=A
+@sum
+M=D           
+(LOOP)                      
+// if (i == 0) go to STP   
+@i
+D=M
+@STP
+D;JEQ
+// sum = sum + R1 value
+@R1
+D=M
+@sum
+M=D+M
+// i = i - 1
+@i
+M=M-1
+// go to LOOP
+@LOOP
+0;JMP
+(STP)
+@sum
+D=M
+@R2
+M=D
+
+
