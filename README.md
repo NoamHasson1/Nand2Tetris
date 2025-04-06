@@ -31,9 +31,7 @@ Use the online IDE from NAND2TETRIS official website
 
 6.For projects 10 use .jack files to test and run JackAnalyzer in you command line. Compare the .xml output file with the given test files.
 
-7.For projects 11 use .jack files to test and run JackCompiler in you command line. Load the output .vm file/s to the VMEmulator and see.
-
-8.that the program is behaving as expected.
+7.For projects 11 use .jack files to test and run JackCompiler in you command line. Load the output .vm file/s to the VMEmulator and see that the program is behaving as expected.
 
 Resources
 
