@@ -20,12 +20,20 @@ Running the Projects
 Use the online IDE from NAND2TETRIS official website
 
 1.For projects 1,2,3,5: upload relevant project to the Hardware Simulator and run it
+
 2.For project 4 upload the relevant Aseembly code to the CPU Emulator, translate it to binary code and run it.
+
 3.For project 6 use .asm files to test and run HackAssembler in your command line. Load output to the online CPU Emulator and test results.
+
 4.For projects 7 use .vm files to test and run VMTranslator in your command line. Load output to the online CPU Emulator and test results.
+
 5.For project 9 use the Space Invaders directory to the online compiler, compile it and enjoy playing!
+
 6.For projects 10 use .jack files to test and run JackAnalyzer in you command line. Compare the .xml output file with the given test files.
-7.For projects 11 use .jack files to test and run JackCompiler in you command line. Load the output .vm file/s to the VMEmulator and see 8.that the program is behaving as expected.
+
+7.For projects 11 use .jack files to test and run JackCompiler in you command line. Load the output .vm file/s to the VMEmulator and see.
+
+8.that the program is behaving as expected.
 
 Resources
 
